@@ -2,28 +2,28 @@
 let totalPriceArray = []; 
 function Order (customSize, cheese) {
   this.customSize = customSize;
-  this.sauce = 1;
+  this.sauce = 50;
   this.cheese = cheese;
-  this.veggie1 = 1;
-  this.veggie2 = 1;
-  this.meat = 2;
+  this.veggie1 = 100;
+  this.veggie2 = 100;
+  this.meat = 200;
   this.pizzaPrice = 0;
-  this.sidePrice = 3;
+  this.sidePrice = 100;
 }
 Order.prototype.pizzaCost = function () {
   if (this.customSize === "Small 10 in.") {
-    this.pizzaPrice += 6;
+    this.pizzaPrice += 270;
   } else if (this.customSize === "Medium 14 in.") {
-    this.pizzaPrice += 9;
+    this.pizzaPrice += 560;
   } else if (this.customSize === "Large 18 in.") {
-    this.pizzaPrice += 12;
+    this.pizzaPrice += 999;
   }
   if (this.cheese === "cheese") {
-    this.pizzaPrice += 1;
+    this.pizzaPrice += 100;
   } else if (this.cheese === "light cheese") {
-    this.pizzaPrice += 0.5;
+    this.pizzaPrice += 50;
   } else if (this.cheese === "extra cheese") {
-    this.pizzaPrice += 1.5;
+    this.pizzaPrice += 150;
   }
   this.pizzaPrice += this.sauce;
   this.pizzaPrice += this.veggie1;
