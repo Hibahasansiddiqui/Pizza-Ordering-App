@@ -2,7 +2,7 @@
 
 ## Description
 
-This App allow a user to create a custom pizza and shows the total of their order in a Cart in the sidebar. The user can also choose between delivery or takeout, and add sides to the order.
+- This App allow a user to create a custom pizza and shows the total of their order in a Cart in the sidebar. The user can also choose between delivery or takeout, and add sides to the order.
 
 ## Specifications
 
@@ -29,9 +29,9 @@ HTML | CSS | JavaScript
 - jQuery
 - JavaScript
 
-## Links
-- Github live page link: 
+## Links:
+- Github live page link: https://hibahasansiddiqui.github.io/Pizza-Ordering-App/
 - Repository Link: https://github.com/Hibahasansiddiqui/Pizza-Ordering-App.git
 
-# Designer
+## Created by:
 - Hiba.H.Siddiqui
