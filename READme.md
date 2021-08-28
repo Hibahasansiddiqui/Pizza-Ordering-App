@@ -29,9 +29,9 @@ HTML | CSS | JavaScript
 - jQuery
 - JavaScript
 
-## Links:
+## Links
 - Github live page link: https://hibahasansiddiqui.github.io/Pizza-Ordering-App/
 - Repository Link: https://github.com/Hibahasansiddiqui/Pizza-Ordering-App.git
 
-## Created by:
+## Created by
 - Hiba.H.Siddiqui
